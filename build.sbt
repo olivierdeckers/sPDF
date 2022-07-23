@@ -15,9 +15,9 @@ organization := "io.github.cloudify"
 
 scalaVersion := "2.12.0"
 
-crossScalaVersions := Seq("2.10.6", "2.11.8", "2.12.0")
+crossScalaVersions := Seq("2.10.6", "2.11.8", "2.12.0", "3.1.0")
 
-releaseCrossBuild := true
+//releaseCrossBuild := true
 
 scalacOptions ++= Seq(
   "-deprecation",
@@ -55,7 +55,7 @@ libraryDependencies := {
 }
 
 libraryDependencies ++= Seq (
-  "org.scalatest"   %% "scalatest"      % "3.0.0"   % "test",
+//  "org.scalatest"   %% "scalatest"      % "3.0.0"   % "test",
   "org.mockito"     %  "mockito-all"    % "1.10.8"  % "test"
 )
 
