@@ -13,7 +13,7 @@ licenses := Seq(
 
 organization := "io.github.cloudify"
 
-scalaVersion := "2.12.0"
+scalaVersion := "3.1.2"
 
 crossScalaVersions := Seq("2.10.6", "2.11.8", "2.12.0", "3.1.0")
 
